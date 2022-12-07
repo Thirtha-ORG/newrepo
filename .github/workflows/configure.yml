@@ -11,4 +11,4 @@ jobs:
     steps:  
       - name: configure github repo
         run: |
-          curl -X POST -u <Thirthavathi-NR>:<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>https://api.github.com/orgs/<testrepo>/repos“{\”name\”: \”Demo_Repo_In_Org\”,\”description\”: \”This is first repo in org through API\”,\”homepage\”: \”https://github.com\”,\”public\”: \”true\”,\”has_issues\”: \”true\”,\”has_projects\”:\”true\”,\”has_wiki\”: \”true\”}”
+          curl -X POST -u <UserName>:<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>https://api.github.com/orgs/<testrepo>/repos“{\”name\”: \”Demo_Repo_In_Org\”,\”description\”: \”This is first repo in org through API\”,\”homepage\”: \”https://github.com\”,\”public\”: \”true\”,\”has_issues\”: \”true\”,\”has_projects\”:\”true\”,\”has_wiki\”: \”true\”}”

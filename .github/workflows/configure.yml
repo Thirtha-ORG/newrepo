@@ -11,7 +11,7 @@ jobs:
     steps:  
       - name: configure github repo
         run: |
-          curl -u Thirtha-ORG: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 https://api.github.com/orgs/Thirtha-ORG/repos -d '{"name":"test-repo-api"}'
+          curl -u Ramya-ravindra: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 https://api.github.com/orgs/practice-test-organisation/repos -d '{"name":"test-repo-api"}'
      #     curl \
     #        -X POST \
     #        -H "Accept: application/vnd.github+json" \
